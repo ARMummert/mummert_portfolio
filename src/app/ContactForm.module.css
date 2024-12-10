@@ -1,0 +1,52 @@
+/* ContactForm.module.css */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  max-width: 100%;
+  width: var(--max-width);
+}
+
+.form input,    
+.form textarea {
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(var(--foreground-rgb), 0.3);
+  box-shadow: 0 0 1rem rgba(var(--foreground-rgb), 0.1);
+  transition: background 200ms, border 200ms;
+}
+
+.form input:focus,
+.form textarea:focus {
+  background: linear-gradient(
+    to bottom right,
+    rgba(var(--tile-start-rgb), 0.3),
+    rgba(var(--tile-end-rgb), 0.3)
+  );
+  border: 1px solid rgba(var(--foreground-rgb), 0.5);
+}
+
+.form button {
+  padding: 10px;
+  border: 1px solid rgba(var(--foreground-rgb), 0.3);
+  background: #775FA8;
+  border-radius: 5px;
+  box-shadow: 0 0 1rem rgba(var(--foreground-rgb), 0.1);
+  transition: background 200ms, border 200ms;
+}
+
+.form button:hover {
+    background: #45B4D6;
+    border: 1px solid rgba(var(--foreground-rgb), 0.5);
+}
+
+.form button:active {
+  background: linear-gradient(
+    to bottom right,
+    rgba(var(--tile-start-rgb), 0.1),
+    rgba(var(--tile-end-rgb), 0.1)
+  );
+  border: 1px solid rgba(var(--foreground-rgb), 0.7);
+}
