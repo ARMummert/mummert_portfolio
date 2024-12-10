@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faChevronLeft, faChevronRight, faFile } from '@fortawesome/free-solid-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 
 
 interface Project {
@@ -55,7 +55,7 @@ const ProjectComponent: React.FC = () => {
         description: 'A portfolio website showcasing a developers projects. Includes a contact form & experience page.',
         image_url: '/images/developerportfoliohomepage.png',
         demo_url: 'https://armummert.github.io/Web-Developer-Portfolio/',
-        github_url: 'https://github.com/ARMummert/',
+        github_url: 'https://github.com/ARMummert/Web-Developer-Portfolio',
         built_with: 'REACT DJANGO JAVASCRIPT SQLITE3 DATABASE'
       },
       {
@@ -91,8 +91,8 @@ const ProjectComponent: React.FC = () => {
         name: 'Dog Training App & Newsletter Microservice',
         description: 'A user friendly dog training application and newsletter microservice.',
         image_url: '/images/dogwebappportfolio2.png',
-        demo_url: 'https://github.com/ARMummert/Dog-Training-Application-and-Newsletter-Microservce',
-        github_url: 'https://github.com/ARMummert/Dog-Training-Application-and-Newsletter-Microservce',
+        demo_url: 'https://github.com/ARMummert/',
+        github_url: 'https://github.com/ARMummert/',
         built_with: 'PYTHON DJANGO DOCKER POSTGRESQL RABBITMQ'
       },
       {
@@ -104,7 +104,6 @@ const ProjectComponent: React.FC = () => {
         github_url: 'https://github.com/ARMummert/',
         built_with: 'FIGMA'
       },
-    
     ];
   
     setSampleProjects(sampleProjects);
