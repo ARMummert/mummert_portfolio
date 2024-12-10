@@ -31,32 +31,50 @@ const ProjectComponent: React.FC = () => {
   useEffect(() => {
     // Project Data
     const sampleProjects: Project[] = [
-      {
+       {
         id: 1,
-        name: 'Temperature Conversion Microservice',
-        description: 'A temperature conversion tool that converts Fahrenheit, Celsius, and Kelvin.',
-        image_url: '/images/project1.png',
-        demo_url: 'https://armummert.github.io/temp_conversion/',
-        github_url: 'https://github.com/ARMummert/temp_conversion',
-        built_with: 'NODEJS'
+        name: 'Software Engineer Portfolio',
+        description: 'A portfolio website showcasing a software engineers projects. Responsive design for mobile and desktop.',
+        image_url: '/images/mummertportfolio.png',
+        demo_url: 'https://github.com/ARMummert/',
+        github_url: 'https://github.com/ARMummert/',
+        built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS'
       },
       {
         id: 2,
+        name: 'Arcane Archive',
+        description: 'A collection of resources for Magic: The Gathering Players. Includes a card search feature and deck builder.',
+        image_url: '/images/arcanearchive.png',
+        demo_url: 'https://github.com/ARMummert/',
+        github_url: 'https://github.com/ARMummert/',
+        built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS FASTAPI POSTGRESQL'
+      },
+      {
+        id: 3,
         name: 'Web Developer Portfolio',
         description: 'A portfolio website showcasing a developers projects. Includes a contact form & experience page.',
         image_url: '/images/developerportfoliohomepage.png',
         demo_url: 'https://armummert.github.io/Web-Developer-Portfolio/',
         github_url: 'https://github.com/ARMummert/',
-        built_with: 'REACT DJANGO JAVASCRIPT'
+        built_with: 'REACT DJANGO JAVASCRIPT SQLITE3 DATABASE'
       },
       {
-        id: 5,
+        id: 4,
         name: 'Blog Web Application',
         description: 'A Blog website that allows users to create, edit, and delete blog posts using Sanity CMS.',
         image_url: '/images/bloghome.png',  
         demo_url: 'https://armummert.github.io/Blog-Project/',
         github_url: 'https://github.com/ARMummert/Blog-Project',
         built_with: 'REACT NEXTJS TYPESCRIPT SANITY'
+      },
+        {
+        id: 5,
+        name: 'Temperature Conversion Microservice',
+        description: 'A temperature conversion tool that converts Fahrenheit, Celsius, and Kelvin.',
+        image_url: '/images/project1.png',
+        demo_url: 'https://armummert.github.io/temp_conversion/',
+        github_url: 'https://github.com/ARMummert/temp_conversion',
+        built_with: 'NODEJS'
       },
       {
         id: 6,
@@ -67,6 +85,7 @@ const ProjectComponent: React.FC = () => {
         github_url: 'https://github.com/ARMummert/Apple-Jacks-Database-Project',
         built_with: 'NODEJS EXPRESSJS MYSQL DATABASE'
       },
+
       {
         id: 7,
         name: 'Dog Training App & Newsletter Microservice',
@@ -104,7 +123,7 @@ const ProjectComponent: React.FC = () => {
             <div className="flex flex-col flex-wrap justify-center items-center m-5 rounded-lg w-[550px] h-[600px] bg-white font-montserrat text-center text-black shadow-[0px_0px_5px_5px_rgba(0,0,0,0.1)] overflow-hidden bg-gradient-to-t from-black via-[#775FA8] to-[#775FA8]" key={project.id}>
               <h3 className="justify-center items-center mt-8 text-xl text-wrap text-white">{project.name}</h3>
               <a href={formatUrl(project.demo_url)} target="_blank" rel="noopener noreferrer">
-                <Image src={project.image_url} className="flex drop-shadow-[0px_0px_5px_rgba(0,0,0,0.2)] mt-5 w-[300px] h-[250px] relative z-10 rounded-lg"
+                <Image src={project.image_url} className="flex drop-shadow-[0px_0px_5px_rgba(0,0,0,0.2)] mt-5 w-[350px] h-[250px] relative z-10 rounded-lg"
                        alt="projectimg" width={600} height={400} />
               </a>
               <p className="flex flex-col flex-wrap overflow-wrap-normal white-space-normal word-wrap-break mt-5 w-3/4 text-white text-xl">{project.description}</p>
