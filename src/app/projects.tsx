@@ -45,7 +45,7 @@ const ProjectComponent: React.FC = () => {
         name: 'Arcane Archive',
         description: 'A collection of resources for Magic: The Gathering Players. Includes a card search feature and deck builder.',
         image_url: '/images/arcanearchive.png',
-        demo_url: 'https://github.com/ARMummert/',
+        demo_url: 'https://armummert.github.io/arcane_archive/',
         github_url: 'https://github.com/ARMummert/',
         built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS FASTAPI POSTGRESQL'
       },
