@@ -35,34 +35,37 @@ export default function Home() {
     <main id="home" className="flex flex-col justify-between items-center bg-black w-screen">
       <section className="flex justify-center items-center h-screen mt-2 text-1.5rem font-montserrat uppercase font-semibold">
       <div className="flex flex-col justify-center items-center absolute top-[35%] left-[50%]">
-      <div className="flex flex-col justify-center items-center absolute top-[35%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-2xl text-center uppercase font-montserrat font-semibold ">
-          <p className="mb-3 text-5xl bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">AMY MUMMERT</p>
-          <span className="mb-2 scroll-smooth overflow-hidden text-5xl border-r-3 border-black animate-typing whitespace-nowrap border-r-white pr-5 font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">SOFTWARE ENGINEER </span>
-      </div>
+          <div
+              className="flex flex-col justify-center items-center absolute top-[35%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-2xl text-center uppercase font-montserrat font-semibold ">
+              <p className="mb-3 text-5xl bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">AMY
+                  MUMMERT</p>
+              <h1 className="mb-2 scroll-smooth overflow-hidden text-5xl whitespace-nowrap border-r-4 border-black animate-typing animation-blink pr-5 font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">
+                  SOFTWARE ENGINEER</h1>
+          </div>
       </div>
           <div className="flex flex-col justify-center
-                      items-center animate-slide-in duration-4000">
+                      items-center">
               <p className="flex flex-row justify-center items-center
-                      w-full font-montserrat text-white text-center text-2xl mt-36">
+                      w-full font-montserrat text-white text-center text-2xl mt-36 animate-slideIn">
                   Fueled by Coffee, Driven by Code, and Bridging the Gap Between Ideas and Reality.
               </p>
               <div className="flex flex-row">
                   <a href="resume/amy-mummert-resume.pdf" target="_blank"
                      className="flex flex-row justify-center items-center rounded
                       w-32 h-12 mt-20 text-white uppercase font-montserrat
-                      font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8 ">My Resume
+                      font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8 animate-slideDown">My Resume
                   </a>
                   <a href="https://www.linkedin.com/in/armummert" target="_blank"
                      className="flex flex-row text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaLinkedin className="ml-8 mt-12 m-2 w-12 h-12"/>
+                      <FaLinkedin className="ml-8 mt-12 m-2 w-12 h-12 animate-slideDown"/>
                   </a>
-                  <a href="https://www.linkedin.com/in/armummert" target="_blank"
+                  <a href="https://github.com/ARMummert" target="_blank"
                      className="flex flex-row text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaGithub className="mt-12 m-2 w-12 h-12"/>
+                      <FaGithub className="mt-12 m-2 w-12 h-12 animate-slideDown"/>
                   </a>
                   <a href="mailto:armummert4@gmail.com" target="_blank"
                      className="flex flex-row text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaGoogle className="mt-12 m-2 w-12 h-12"/>
+                      <FaGoogle className="mt-12 m-2 w-12 h-12 animate-slideDown"/>
                   </a>
               </div>
           </div>

@@ -23,8 +23,10 @@ module.exports = {
     extend: {
       animation: {
         hinge: 'hinge 1s ease-in',
-        typing: "typing 2s steps(20), blink .7s infinite",
-        loop: "loop 1s ease-in-out infinite"
+        typing: "typing 2s steps(20), blink 1s infinite",
+        loop: "loop 1s ease-in-out infinite",
+        slideIn: "slideIn 1s ease-in-out",
+        slideDown: "slideDown 1s ease-in-out",
       },
       keyframes: {
         hinge: {
@@ -54,6 +56,14 @@ module.exports = {
         loop: {
             '0%, 100%': { transform: 'translateY(0)' },
             '50%': { transform: 'translateY(-5px)' },
+        },
+        slideIn: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideDown: {
+            '0%': { transform: 'translateY(-100%)' },
+            '100%': { transform: 'translateY(0)' },
         }
       },
     },

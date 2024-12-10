@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faChevronLeft, faChevronRight, faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faChevronRight, faFile } from '@fortawesome/free-solid-svg-icons';
 
 
 interface Project {
@@ -110,7 +110,7 @@ const ProjectComponent: React.FC = () => {
               <p className="flex flex-col flex-wrap overflow-wrap-normal white-space-normal word-wrap-break mt-5 w-3/4 text-white text-xl">{project.description}</p>
               <div>
                 <a href={formatUrl(project.demo_url)} target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon className="text-white hover:text-[#45B4D6] p-4 w-10 h-10 mt-4" icon={faPlay} />
+                  <FontAwesomeIcon className="text-white hover:text-[#45B4D6] p-4 w-10 h-10 mt-4" icon={faFile} />
                 </a>
                 <a href={formatUrl(project.github_url)} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon className="text-white hover:text-[#45B4D6] p-4 w-10 h-10 mt-4" icon={faGithub} />
