@@ -46,7 +46,7 @@ const ProjectComponent: React.FC = () => {
         description: 'A collection of resources for Magic: The Gathering Players. Includes a card search feature and deck builder.',
         image_url: '/images/arcanearchive.png',
         demo_url: 'https://armummert.github.io/arcane_archive/',
-        github_url: 'https://github.com/ARMummert/',
+        github_url: 'https://github.com/ARMummert/Software-Engineer-Portfolio',
         built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS FASTAPI POSTGRESQL'
       },
       {
