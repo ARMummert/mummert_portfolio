@@ -1223,26 +1223,6 @@ p {
       align-items: center;
     }
   }
-   /* Styles */
-
-  .page_social__NLAd0 {
-    display: flex;
-    justify-content: center;
-    
-  }
-
-  .page_singleproject__mEgXM:hover img {
-    transform: scale(1.4);
-    transition: transform 0.5s;
-  }
-
-
-  .page_built__ZChRu {
-    color: black;
-    font-weight: 600;
-    margin-bottom: 20px;
-    font-size: 0.6rem;
-  }
 
   /* CSS Animation - See README for citation */
   .page_loopSlider___DWBF {
@@ -1265,7 +1245,6 @@ p {
       transform: translateX(-50%);
     }
   }
-
 
   .page_tag__lW6GL {
     display: flex;

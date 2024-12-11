@@ -110,26 +110,6 @@
       align-items: center;
     }
   }
-   /* Styles */
-
-  .social {
-    display: flex;
-    justify-content: center;
-    
-  }
-
-  .singleproject:hover img {
-    transform: scale(1.4);
-    transition: transform 0.5s;
-  }
-
-
-  .built {
-    color: black;
-    font-weight: 600;
-    margin-bottom: 20px;
-    font-size: 0.6rem;
-  }
 
   /* CSS Animation - See README for citation */
   .loopSlider {
@@ -151,7 +131,6 @@
       transform: translateX(-50%);
     }
   }
-
 
   .tag {
     display: flex;
