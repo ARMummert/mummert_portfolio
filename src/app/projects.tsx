@@ -37,7 +37,7 @@ const ProjectComponent: React.FC = () => {
         description: 'A portfolio website showcasing a software engineers projects. Responsive design for mobile and desktop.',
         image_url: '/images/mummertportfolio.png',
         demo_url: 'https://github.com/ARMummert/',
-        github_url: 'https://github.com/ARMummert/',
+        github_url: 'https://github.com/ARMummert/Software-Engineer-Portfolio',
         built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS'
       },
       {
@@ -46,11 +46,29 @@ const ProjectComponent: React.FC = () => {
         description: 'A collection of resources for Magic: The Gathering Players. Includes a card search feature and deck builder.',
         image_url: '/images/arcanearchive.png',
         demo_url: 'https://armummert.github.io/arcane_archive/',
-        github_url: 'https://github.com/ARMummert/Software-Engineer-Portfolio',
+        github_url: 'https://github.com/ARMummert/',
         built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS FASTAPI POSTGRESQL'
       },
       {
         id: 3,
+        name: 'Ignite Personal Training Application',
+        description: 'A personal trainer application with tailored workouts.',
+        image_url: '/images/AICoderPoster.png',
+        demo_url: 'https://github.com/ARMummert/',
+        github_url: 'https://github.com/ARMummert/',
+        built_with: 'REACT-NATIVE EXPO TYPESCRIPT FLASK POSTGRESQL'
+      },
+      {
+        id: 4,
+        name: 'Blog Web Application',
+        description: 'A Blog website that allows users to create, edit, and delete blog posts using Sanity CMS.',
+        image_url: '/images/bloghome.png',
+        demo_url: 'https://armummert.github.io/Blog-Project/',
+        github_url: 'https://github.com/ARMummert/Blog-Project',
+        built_with: 'REACT NEXTJS TYPESCRIPT SANITY'
+      },
+      {
+        id: 5,
         name: 'Web Developer Portfolio',
         description: 'A portfolio website showcasing a developers projects. Includes a contact form & experience page.',
         image_url: '/images/developerportfoliohomepage.png',
@@ -59,16 +77,7 @@ const ProjectComponent: React.FC = () => {
         built_with: 'REACT DJANGO JAVASCRIPT SQLITE3 DATABASE'
       },
       {
-        id: 4,
-        name: 'Blog Web Application',
-        description: 'A Blog website that allows users to create, edit, and delete blog posts using Sanity CMS.',
-        image_url: '/images/bloghome.png',  
-        demo_url: 'https://armummert.github.io/Blog-Project/',
-        github_url: 'https://github.com/ARMummert/Blog-Project',
-        built_with: 'REACT NEXTJS TYPESCRIPT SANITY'
-      },
-        {
-        id: 5,
+        id: 6,
         name: 'Temperature Conversion Microservice',
         description: 'A temperature conversion tool that converts Fahrenheit, Celsius, and Kelvin.',
         image_url: '/images/project1.png',
@@ -77,7 +86,7 @@ const ProjectComponent: React.FC = () => {
         built_with: 'NODEJS'
       },
       {
-        id: 6,
+        id: 7,
         name: 'Baton Twirling Entry Form Database',
         description: 'The Baton Twirling Database stores entries for athletes attending baton twirling events.',
         image_url: '/images/databasehomepage.png',
@@ -87,7 +96,7 @@ const ProjectComponent: React.FC = () => {
       },
 
       {
-        id: 7,
+        id: 8,
         name: 'Dog Training App & Newsletter Microservice',
         description: 'A user friendly dog training application and newsletter microservice.',
         image_url: '/images/dogwebappportfolio2.png',
@@ -96,7 +105,7 @@ const ProjectComponent: React.FC = () => {
         built_with: 'PYTHON DJANGO DOCKER POSTGRESQL RABBITMQ'
       },
       {
-        id: 8,
+        id: 9,
         name: 'UX/UI Design - Note Taking App',
         description: 'A note taking app that includes a user friendly interface and design.',
         image_url: '/images/notetakingapp.png',
