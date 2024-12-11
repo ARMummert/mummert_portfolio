@@ -36,8 +36,8 @@ const ProjectComponent: React.FC = () => {
         name: 'Software Engineer Portfolio',
         description: 'A portfolio website showcasing a software engineers projects. Responsive design for mobile and desktop.',
         image_url: '/images/mummertportfolio.png',
-        demo_url: 'https://github.com/ARMummert/',
-        github_url: 'https://github.com/ARMummert/Software-Engineer-Portfolio',
+        demo_url: 'https://armummert.github.io/mummert_portfolio/',
+        github_url: 'https://github.com/ARMummert/',
         built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS'
       },
       {
