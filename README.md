@@ -1,4 +1,4 @@
-![Software Engineer Portfolio Image](mummertportfolio/public/images/softwareengineerhome.png)
+![Software Engineer Portfolio Image](public/images/softwareengineerhome.png)
 
 ## Getting Started
 
