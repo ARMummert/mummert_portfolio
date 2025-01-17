@@ -115,7 +115,7 @@ export default function Home() {
                   <div
                       className="w-[40rem] h-auto max-w-[90vw] flex flex-col items-center flex-shrink-0 gap-y-4 relative py-4 overflow-hidden">
                       <div className={styles.loopSlider}
-                           style={{"--duration": "15951ms", "--direction": "normal"} as React.CSSProperties}>
+                           style={{"--duration": "15952ms", "--direction": "normal"} as React.CSSProperties}>
                           <div className={styles.inner}>
                               {techIcons.slice(0, 10).map((tech, index) => (
                                   <div key={index} className={styles.tag}>{tech.icon}</div>
