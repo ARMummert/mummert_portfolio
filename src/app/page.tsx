@@ -50,7 +50,7 @@ export default function Home() {
                   Fueled by Coffee, Driven by Code, and Bridging the Gap Between Ideas and Reality.
               </p>
               <div className="flex flex-row">
-                  <a href="resume/amy-mummert-resume.pdf" target="_blank"
+                  <a href="resume/MummertResume.pdf" target="_blank"
                      className="flex flex-row justify-center items-center rounded
                       w-32 h-12 mt-20 text-white uppercase font-montserrat
                       font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8 animate-slideDown">My Resume
@@ -104,7 +104,7 @@ export default function Home() {
                   I&apos;d love to connect!
 
               </p>
-              <a href="resume/amy-mummert-resume.pdf" target="_blank"
+              <a href="resume/MummertResume.pdf" target="_blank"
                  className="flex flex-row justify-center items-center rounded
                       w-32 h-12 mt-20 text-white uppercase font-montserrat
                       font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8">My Resume
