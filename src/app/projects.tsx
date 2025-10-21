@@ -50,33 +50,6 @@ const ProjectComponent: React.FC = () => {
         built_with: 'REACT NEXTJS TYPESCRIPT TAILWINDCSS FASTAPI POSTGRESQL'
       },
       {
-        id: 3,
-        name: 'Ignite Personal Training Application',
-        description: 'A personal trainer application with tailored workouts.',
-        image_url: '/images/AICoderPoster.png',
-        demo_url: 'https://github.com/ARMummert/',
-        github_url: 'https://github.com/ARMummert/',
-        built_with: 'REACT-NATIVE EXPO TYPESCRIPT FLASK POSTGRESQL'
-      },
-      {
-        id: 4,
-        name: 'Blog Web Application',
-        description: 'A Blog website that allows users to create, edit, and delete blog posts using Sanity CMS.',
-        image_url: '/images/bloghome.png',
-        demo_url: 'https://armummert.github.io/Blog-Project/',
-        github_url: 'https://github.com/ARMummert/Blog-Project',
-        built_with: 'REACT NEXTJS TYPESCRIPT SANITY'
-      },
-      {
-        id: 5,
-        name: 'Web Developer Portfolio',
-        description: 'A portfolio website showcasing a developers projects. Includes a contact form & experience page.',
-        image_url: '/images/developerportfoliohomepage.png',
-        demo_url: 'https://armummert.github.io/Web-Developer-Portfolio/',
-        github_url: 'https://github.com/ARMummert/Web-Developer-Portfolio',
-        built_with: 'REACT DJANGO JAVASCRIPT SQLITE3 DATABASE'
-      },
-      {
         id: 6,
         name: 'Temperature Conversion Microservice',
         description: 'A temperature conversion tool that converts Fahrenheit, Celsius, and Kelvin.',
@@ -86,16 +59,6 @@ const ProjectComponent: React.FC = () => {
         built_with: 'NODEJS'
       },
       {
-        id: 7,
-        name: 'Baton Twirling Entry Form Database',
-        description: 'The Baton Twirling Database stores entries for athletes attending baton twirling events.',
-        image_url: '/images/databasehomepage.png',
-        demo_url: 'https://armummert.github.io/Apple-Jacks-Database-Project/',
-        github_url: 'https://github.com/ARMummert/Apple-Jacks-Database-Project',
-        built_with: 'NODEJS EXPRESSJS MYSQL DATABASE'
-      },
-
-      {
         id: 8,
         name: 'Dog Training App & Newsletter Microservice',
         description: 'A user friendly dog training application and newsletter microservice.',
@@ -103,15 +66,6 @@ const ProjectComponent: React.FC = () => {
         demo_url: 'https://github.com/ARMummert/',
         github_url: 'https://github.com/ARMummert/',
         built_with: 'PYTHON DJANGO DOCKER POSTGRESQL RABBITMQ'
-      },
-      {
-        id: 9,
-        name: 'UX/UI Design - Note Taking App',
-        description: 'A note taking app that includes a user friendly interface and design.',
-        image_url: '/images/notetakingapp.png',
-        demo_url: 'https://www.figma.com/proto/3R4YpXXdWzElBmLGLD6JXz/Notes_Station_Clickable_Prototype?page-id=1%3A2&node-id=89-1299&viewport=375%2C540%2C0.1&t=N57b1G0XzUXjgisW-1&scaling=scale-down&content-scaling=fixe',
-        github_url: 'https://github.com/ARMummert/',
-        built_with: 'FIGMA'
       },
     ];
   
@@ -126,7 +80,7 @@ const ProjectComponent: React.FC = () => {
 
   return (
     <div className="h-auto">
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(600px,1fr))] flex-col justify-center items-center m-5 bg-black w-screen p-0 border-none ref={projectContainerRef}">
+      <div className="flex flex-row flex-wrap justify-center items-center m-5 bg-black w-screen p-0 border-none ref={projectContainerRef}">
           {sampleProjects.map((project) => (
             <div className="flex flex-col flex-wrap justify-center items-center ml-10 rounded-lg w-[550px] h-[600px] bg-white font-montserrat text-center text-black shadow-[0px_0px_5px_5px_rgba(0,0,0,0.1)] overflow-hidden bg-gradient-to-t from-black via-[#775FA8] to-[#775FA8]" key={project.id}>
               <h3 className="justify-center items-center mt-8 text-xl text-wrap text-white">{project.name}</h3>
