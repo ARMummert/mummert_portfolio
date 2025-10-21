@@ -34,15 +34,15 @@ const Footer = ({ children }: { children: ReactNode }) => {
               <div className="flex flex-row gap-4 w-full items-center justify-center">
                   <a href="https://github.com/ARMummert" target="_blank"
                      className="flex flex-col text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaGithub className=" mb-4 ml-4 w-8 h-8"/>
+                      <FaGithub className=" mb-4 ml-4 w-4 h-4"/>
                   </a>
                   <a href="https://www.linkedin.com/in/armummert" target="_blank"
                      className="flex flex-col text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaLinkedin className="mb-4 w-8 h-8"/>
+                      <FaLinkedin className="mb-4 w-4 h-4"/>
                   </a>
                   <a href="mailto:armummert4@gmail.com"  target="_blank"
                      className="flex flex-col text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaGoogle className="mb-4 w-8 h-8"/>
+                      <FaGoogle className="mb-4 w-4 h-4"/>
                   </a>
                   <button
                       onClick={scrollTop}
