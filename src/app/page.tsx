@@ -73,7 +73,7 @@ export default function Home() {
         <div className="bg-black font-montserrat flex flex-col justify-center items-center">
             <section id="projects">
                 <div className="justify-center items-center">
-                    <h2 className="mt-24 mb-3 text-4xl font-semibold text-white">Some things I have built</h2>
+                    <h2 className="mt-24 mb-3 text-3xl font-semibold text-white">Some things I have built...</h2>
                 </div>
                 <div><ProjectComponent/></div>
             </section>
