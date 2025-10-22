@@ -24,13 +24,13 @@ const Layout = ({ children }: { children: ReactNode }) => {
         <title>Amy Mummert Portfolio</title>
       </head>
       <body>
-      <nav className="fixed w-full flex justify-right pr-6 bg-black p-1 shadow-md text-2xl font-montserrat">
+      <nav>
           <p className="flex w-full pl-8 text-2xl font-semibold justify-left">Amy Mummert</p>
-          <div className="flex">
-          <a href="#home" className="mx-2 text-white font-semibold">Home</a>
-          <a href="#projects" className="mx-2 text-white font-semibold">Projects</a>
-          <a href="#about" className="mx-2 text-white font-semibold">About</a>
-          <a href="#contact" className="mx-2 text-white font-semibold">Contact</a>
+          <div className="flex justify-end mx-2 space-x-6">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
           </div>
       </nav>
       <main>
