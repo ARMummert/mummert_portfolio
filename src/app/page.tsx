@@ -109,8 +109,8 @@ export default function Home() {
                       w-32 h-12 mt-20 text-white uppercase
                       font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8">My Resume
               </a>
-              <p className="flex flex-col justify-center items-center mt-20 font-semibold text-white">Technologies
-                  I&apos;ve worked with</p>
+              <h1 className="flex flex-col justify-center items-center mt-20 font-semibold text-white">Technologies
+                  I&apos;ve worked with</h1>
               <div>
                   <div
                       className="w-[40rem] h-auto max-w-[90vw] flex flex-col items-center flex-shrink-0 gap-y-4 relative py-4 overflow-hidden">
