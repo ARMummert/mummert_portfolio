@@ -25,7 +25,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
       </head>
       <body>
       <nav>
-          <div className="flex justify-end mx-2 space-x-6">
+          <div className="space-x-4 text-white text-center">
           <a href="#home">Home</a>
           <a href="#projects">Projects</a>
           <a href="#about">About</a>

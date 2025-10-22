@@ -37,18 +37,18 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center absolute top-[35%] left-[50%]">
           <div
               className="flex flex-col justify-center items-center absolute top-[35%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center uppercase font-semibold ">
-              <h1 className="mb-3 bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">AMY
+              <h1 className="text-2xl mb-3 bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">AMY
                   MUMMERT</h1>
-              <h1 className="mb-2 scroll-smooth overflow-hidden whitespace-nowrap border-r-4 border-black animate-typing animation-blink pr-5 font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">
+              <h1 className="text-2xl mb-2 scroll-smooth overflow-hidden whitespace-nowrap border-r-4 border-black animate-typing animation-blink pr-5 font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">
                   SOFTWARE ENGINEER</h1>
           </div>
       </div>
           <div className="flex flex-col justify-center
                       items-center">
-              <h2 className="flex flex-row justify-center items-center
+              <h3 className="flex flex-row justify-center items-center
                       w-full text-white text-center mt-36 animate-slideIn">
                   Fueled by Coffee, Driven by Code, and Bridging the Gap Between Ideas and Reality.
-              </h2>
+              </h3>
               <div className="flex flex-row">
                   <a href="resume/MummertResume.pdf" target="_blank"
                      className="flex flex-row justify-center items-center rounded
@@ -73,14 +73,14 @@ export default function Home() {
         <div className="bg-black flex flex-col justify-center items-center">
             <section id="projects">
                 <div className="justify-center items-center">
-                    <h1 className="mt-24 mb-3 text-white">Some things I've built...</h1>
+                    <h2 className="mt-24 mb-3 text-white">Some things I've built...</h2>
                 </div>
                 <div><ProjectComponent/></div>
             </section>
         </div>
       <div className="h-auto">
           <section id="about" className="flex flex-col justify-center items-center text-white">
-              <h1 className="mt-24 mb-3">About</h1>
+              <h2 className="mt-24 mb-3">About</h2>
               <h3 className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
                   I am a software engineer with a passion for creating innovative solutions and solving complex
                   problems.
@@ -109,8 +109,8 @@ export default function Home() {
                       w-32 h-12 mt-20 text-white uppercase
                       font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8">My Resume
               </a>
-              <h1 className="flex flex-col justify-center items-center mt-20 font-semibold text-white">Technologies
-                  I&apos;ve worked with</h1>
+              <h2 className="flex flex-col justify-center items-center mt-20 font-semibold text-white">Technologies
+                  I&apos;ve worked with</h2>
               <div>
                   <div
                       className="w-[40rem] h-auto max-w-[90vw] flex flex-col items-center flex-shrink-0 gap-y-4 relative py-4 overflow-hidden">

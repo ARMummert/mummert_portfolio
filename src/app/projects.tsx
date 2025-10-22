@@ -93,7 +93,9 @@ const ProjectComponent: React.FC = () => {
                 <a href={formatUrl(project.demo_url)} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon className="text-white hover:text-[#45B4D6] p-4 w-10 h-10 mt-4" icon={faFile} />
                 </a>
-                <p className="text-white font-semibold">{project.built_with}</p>
+              </div>
+              <div>
+              <p className="text-sm p-2 text-white font-semibold">{project.built_with}</p>
               </div>
             </div>
           ))}
