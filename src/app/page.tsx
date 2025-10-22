@@ -33,22 +33,22 @@ const techIcons = [
 export default function Home() {
   return (
     <main id="home" className="flex flex-col justify-between items-center bg-black w-screen">
-      <section className="flex justify-center items-center h-screen mt-2 text-1.5rem font-montserrat uppercase font-semibold">
+      <section className="flex justify-center items-center h-screen mt-2 text-1.5rem uppercase font-semibold">
       <div className="flex flex-col justify-center items-center absolute top-[35%] left-[50%]">
           <div
-              className="flex flex-col justify-center items-center absolute top-[35%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-2xl text-center uppercase font-montserrat font-semibold ">
-              <p className="mb-3 text-5xl bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">AMY
-                  MUMMERT</p>
-              <h1 className="mb-2 scroll-smooth overflow-hidden text-5xl whitespace-nowrap border-r-4 border-black animate-typing animation-blink pr-5 font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">
+              className="flex flex-col justify-center items-center absolute top-[35%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center uppercase font-semibold ">
+              <h1 className="mb-3 bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">AMY
+                  MUMMERT</h1>
+              <h1 className="mb-2 scroll-smooth overflow-hidden whitespace-nowrap border-r-4 border-black animate-typing animation-blink pr-5 font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#71C9CF] via-[#45B4D6] to-[#775FA8]">
                   SOFTWARE ENGINEER</h1>
           </div>
       </div>
           <div className="flex flex-col justify-center
                       items-center">
-              <p className="flex flex-row justify-center items-center
-                      w-full font-montserrat text-white text-center text-2xl mt-36 animate-slideIn">
+              <h2 className="flex flex-row justify-center items-center
+                      w-full text-white text-center mt-36 animate-slideIn">
                   Fueled by Coffee, Driven by Code, and Bridging the Gap Between Ideas and Reality.
-              </p>
+              </h2>
               <div className="flex flex-row">
                   <a href="resume/MummertResume.pdf" target="_blank"
                      className="flex flex-row justify-center items-center rounded
@@ -56,32 +56,32 @@ export default function Home() {
                       font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8 animate-slideDown">My Resume
                   </a>
                   <a href="https://www.linkedin.com/in/armummert" target="_blank"
-                     className="flex flex-row text-white mt-8 text-2xl hover:text-[#45B4D6]">
+                     className="flex flex-row text-white mt-8 hover:text-[#45B4D6]">
                       <FaLinkedin className="ml-8 mt-12 m-2 w-12 h-12 animate-slideDown"/>
                   </a>
                   <a href="https://github.com/ARMummert" target="_blank"
-                     className="flex flex-row text-white mt-8 text-2xl hover:text-[#45B4D6]">
+                     className="flex flex-row text-white mt-8 hover:text-[#45B4D6]">
                       <FaGithub className="mt-12 m-2 w-12 h-12 animate-slideDown"/>
                   </a>
                   <a href="mailto:armummert4@gmail.com" target="_blank"
-                     className="flex flex-row text-white mt-8 text-2xl hover:text-[#45B4D6]">
+                     className="flex flex-row text-white mt-8 hover:text-[#45B4D6]">
                       <FaGoogle className="mt-12 m-2 w-12 h-12 animate-slideDown"/>
                   </a>
               </div>
           </div>
       </section>
-        <div className="bg-black font-montserrat flex flex-col justify-center items-center">
+        <div className="bg-black flex flex-col justify-center items-center">
             <section id="projects">
                 <div className="justify-center items-center">
-                    <h2 className="mt-24 mb-3 text-3xl font-semibold text-white">Some things I've built...</h2>
+                    <h1 className="mt-24 mb-3 text-white">Some things I've built...</h1>
                 </div>
                 <div><ProjectComponent/></div>
             </section>
         </div>
       <div className="h-auto">
-          <section id="about" className="flex flex-col font-montserrat justify-center items-center text-white">
-              <h2 className="mt-24 mb-3 text-4xl text-white font-semibold">About</h2>
-              <p className="flex flex-col flex-wrap-reverse items-center mt-12 font-montserrat text-white text-center text-2xl w-4/5">
+          <section id="about" className="flex flex-col justify-center items-center text-white">
+              <h1 className="mt-24 mb-3">About</h1>
+              <h3 className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
                   I am a software engineer with a passion for creating innovative solutions and solving complex
                   problems.
                   My journey in technology has allowed me to work with a wide array of tools and frameworks, including
@@ -89,28 +89,28 @@ export default function Home() {
                   These tools have helped me create, develop, test, and improve applications that deliver user-friendly
                   experiences.
                   I am always eager to learn new things and take on new challenges.
-              </p>
-              <p className="flex flex-col flex-wrap-reverse items-center mt-12 font-montserrat text-white text-center text-2xl w-4/5">
+              </h3>
+              <h3 className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
                   Beyond my technical skills, I am a dedicated team player who is always willing to lend a helping hand.
                   I am a strong communicator who is able to work with cross-functional teams to deliver high-quality
                   products.
                   I am driven by a love for learning and personal growth. I thrive on tackling new challenges and
                   finding creative solutions to complex problems.
-              </p>
-              <p className="flex flex-col flex-wrap-reverse items-center mt-12 font-montserrat text-white text-center text-2xl w-4/5">
+              </h3>
+              <h3 className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
                   I am currently seeking new opportunities to contribute my skills to impactful projects,
                   collaborate with like-minded professionals, and continue growing as a developer.
                   If you&apos;re looking for a passionate and adaptable engineer to join your team,
                   I&apos;d love to connect!
 
-              </p>
+              </h3>
               <a href="resume/MummertResume.pdf" target="_blank"
                  className="flex flex-row justify-center items-center rounded
-                      w-32 h-12 mt-20 text-white uppercase font-montserrat
+                      w-32 h-12 mt-20 text-white uppercase
                       font-semibold bg-[#775FA8] hover:bg-[#45B4D6] text-#775FA8">My Resume
               </a>
-              <p className="flex flex-col justify-center items-center mt-20 text-2xl font-semibold text-white font-montserrat">Technologies
-                  I&apos;ve worked with</p>
+              <h1 className="flex flex-col justify-center items-center mt-20 font-semibold text-white">Technologies
+                  I&apos;ve worked with</h1>
               <div>
                   <div
                       className="w-[40rem] h-auto max-w-[90vw] flex flex-col items-center flex-shrink-0 gap-y-4 relative py-4 overflow-hidden">
@@ -143,8 +143,8 @@ export default function Home() {
           </section>
       </div>
         <section id="contact"
-                 className="bg-white flex flex-col items-center justify-between w-full px-6 py-24 mt-32 mb-64 text-white uppercase font-montserrat">
-            <h2 className="flex flex-row text-black items-center justify-center text-4xl uppercase font-montserrat font-semibold mt-12">Contact</h2>
+                 className="bg-white flex flex-col items-center justify-between w-full px-6 py-24 mt-32 mb-64 text-white uppercase">
+            <h2 className="flex flex-row text-black items-center justify-center text-4xl uppercase font-semibold mt-12">Contact</h2>
             <ContactForm/>
         </section>
     </main>

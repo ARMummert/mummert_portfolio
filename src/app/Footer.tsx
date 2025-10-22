@@ -30,19 +30,25 @@ const Footer = ({ children }: { children: ReactNode }) => {
   
     return (
       <>
-          <footer className="fixed bottom-0 w-full h-[80px] bg-black text-white text-center z-10">
+          <footer className="bottom-0 w-full h-[160px] bg-black text-white text-center z-10">
+               <div>
+                  <p className="flex justify-center items-center p-1 font-semibold uppercase">
+                      © 2024 Amy Mummert. All Rights Reserved.</p>
+                  <p className="flex justify-center items-center p-1 font-semibold uppercase">BUILT
+                      WITH - REACT NEXTJS TYPESCRIPT TAILWINDCSS</p>
+                </div>
               <div className="flex flex-row gap-4 w-full items-center justify-center">
                   <a href="https://github.com/ARMummert" target="_blank"
                      className="flex flex-col text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaGithub className=" mb-4 ml-4 w-4 h-4"/>
+                      <FaGithub className=" mb-4 ml-4 w-6 h-6"/>
                   </a>
                   <a href="https://www.linkedin.com/in/armummert" target="_blank"
                      className="flex flex-col text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaLinkedin className="mb-4 w-4 h-4"/>
+                      <FaLinkedin className="mb-4 w-6 h-6"/>
                   </a>
                   <a href="mailto:armummert4@gmail.com"  target="_blank"
                      className="flex flex-col text-white mt-8 text-2xl hover:text-[#45B4D6]">
-                      <FaGoogle className="mb-4 w-4 h-4"/>
+                      <FaGoogle className="mb-4 w-6 h-6"/>
                   </a>
                   <button
                       onClick={scrollTop}
@@ -63,10 +69,6 @@ const Footer = ({ children }: { children: ReactNode }) => {
                   >
                       <FontAwesomeIcon icon={faArrowUp}/>
                   </button>
-                  <p className="flex justify-center items-center mt-4 p-1 text-[0.8rem] font-semibold font-montserrat uppercase">
-                      © 2024 Amy Mummert. All Rights Reserved.</p>
-                  <p className="flex justify-center items-center mt-4 p-1 text-[0.8rem] font-semibold font-montserrat uppercase">BUILT
-                      WITH - REACT NEXTJS TYPESCRIPT TAILWINDCSS</p>
               </div>
           </footer>
       </>
