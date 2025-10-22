@@ -63,9 +63,9 @@ const Footer = ({ children }: { children: ReactNode }) => {
                   >
                       <FontAwesomeIcon icon={faArrowUp}/>
                   </button>
-                  <p className="flex justify-center items-center mt-4 p-1 text-[0.8rem] font-semibold font-montserrat uppercase">
+                  <p className="flex justify-center items-center mt-4 p-1 text-[0.8rem] font-semibold uppercase">
                       © 2024 Amy Mummert. All Rights Reserved.</p>
-                  <p className="flex justify-center items-center mt-4 p-1 text-[0.8rem] font-semibold font-montserrat uppercase">BUILT
+                  <p className="flex justify-center items-center mt-4 p-1 text-[0.8rem] font-semibold uppercase">BUILT
                       WITH - REACT NEXTJS TYPESCRIPT TAILWINDCSS</p>
               </div>
           </footer>

@@ -830,11 +830,11 @@ video {
 .h-4 {
   height: 1rem;
 }
+.h-\[800px\] {
+  height: 800px;
+}
 .h-\[80px\] {
   height: 80px;
-}
-.h-\[820px\] {
-  height: 820px;
 }
 .h-auto {
   height: auto;
@@ -1076,10 +1076,6 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1124,9 +1120,20 @@ video {
   --tw-shadow-colored: 0px 0px 5px 5px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-.drop-shadow-\[0px_0px_5px_rgba\(0\2c 0\2c 0\2c 0\.2\)\] {
-  --tw-drop-shadow: drop-shadow(0px 0px 5px rgba(0,0,0,0.2));
+.drop-shadow-\[0px_0px_5px_rgba\(0\2c 0\2c 0\2c 0\.5\)\] {
+  --tw-drop-shadow: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -1276,7 +1283,7 @@ nav {
 }
 
 input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rock Salt', sans-serif;
   font-size: 1rem;
   padding: 1rem 1rem;
   border: 1px solid rgba(var(--foreground-rgb), 0.3);
@@ -1290,7 +1297,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rock Salt', sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1298,7 +1305,7 @@ h1 {
 h2 {
   font-size: 1.0rem;
   margin-bottom: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rock Salt', sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1307,14 +1314,19 @@ h3 {
   font-size: 0.8rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Rock Salt', sans-serif;
   text-align: center;
 }
 
 p {
   font-size: 0.8rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rock Salt', sans-serif;
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:bg-\[\#45B4D6\]:hover {
@@ -1325,5 +1337,10 @@ p {
 .hover\:text-\[\#45B4D6\]:hover {
   --tw-text-opacity: 1;
   color: rgb(69 180 214 / var(--tw-text-opacity, 1));
+}
+
+.hover\:drop-shadow-\[0px_0px_10px_rgba\(0\2c 0\2c 0\2c 0\.8\)\]:hover {
+  --tw-drop-shadow: drop-shadow(0px 0px 10px rgba(0,0,0,0.8));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
