@@ -81,7 +81,7 @@ export default function Home() {
       <div className="h-auto">
           <section id="about" className="flex flex-col justify-center items-center text-white">
               <h1 className="mt-24 mb-3">About</h1>
-              <p className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
+              <h3 className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
                   I am a software engineer with a passion for creating innovative solutions and solving complex
                   problems.
                   My journey in technology has allowed me to work with a wide array of tools and frameworks, including
@@ -89,21 +89,21 @@ export default function Home() {
                   These tools have helped me create, develop, test, and improve applications that deliver user-friendly
                   experiences.
                   I am always eager to learn new things and take on new challenges.
-              </p>
-              <p className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
+              </h3>
+              <h3 className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
                   Beyond my technical skills, I am a dedicated team player who is always willing to lend a helping hand.
                   I am a strong communicator who is able to work with cross-functional teams to deliver high-quality
                   products.
                   I am driven by a love for learning and personal growth. I thrive on tackling new challenges and
                   finding creative solutions to complex problems.
-              </p>
-              <p className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
+              </h3>
+              <h3 className="flex flex-col flex-wrap-reverse items-center mt-12 text-white text-center w-4/5">
                   I am currently seeking new opportunities to contribute my skills to impactful projects,
                   collaborate with like-minded professionals, and continue growing as a developer.
                   If you&apos;re looking for a passionate and adaptable engineer to join your team,
                   I&apos;d love to connect!
 
-              </p>
+              </h3>
               <a href="resume/MummertResume.pdf" target="_blank"
                  className="flex flex-row justify-center items-center rounded
                       w-32 h-12 mt-20 text-white uppercase
