@@ -30,7 +30,7 @@ const Footer = ({ children }: { children: ReactNode }) => {
   
     return (
       <>
-          <footer className="fixed bottom-0 w-full h-[80px] bg-black text-white text-center z-10">
+          <footer className="bottom-0 w-full h-[80px] bg-black text-white text-center z-10">
               <div className="flex flex-row gap-4 w-full items-center justify-center">
                   <a href="https://github.com/ARMummert" target="_blank"
                      className="flex flex-col text-white mt-8 text-2xl hover:text-[#45B4D6]">
