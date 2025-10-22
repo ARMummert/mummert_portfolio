@@ -25,7 +25,6 @@ const Layout = ({ children }: { children: ReactNode }) => {
       </head>
       <body>
       <nav>
-          <p className="flex w-full pl-8 text-2xl font-semibold justify-left">Amy Mummert</p>
           <div className="flex justify-end mx-2 space-x-6">
           <a href="#home">Home</a>
           <a href="#projects">Projects</a>

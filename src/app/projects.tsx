@@ -79,16 +79,16 @@ const ProjectComponent: React.FC = () => {
   };
 
   return (
-    <div className="h-auto">
-      <div className="flex flex-row flex-wrap m-5 bg-black border-none ref={projectContainerRef}">
+    <div className="h-auto w-auto bg-gradient-to-b from-black via-[#121212] to-[#121212]" id="projects">
+      <div className="flex flex-row flex-wrap m-5 border-none ref={projectContainerRef}">
           {mummertProjects.map((project) => (
-            <div className="flex flex-col flex-wrap items-center ml-10 w-[500px] h-[800px] bg-white text-center text-black shadow-[0px_0px_5px_5px_rgba(0,0,0,0.1)] overflow-hidden bg-gradient-to-t from-black via-[#775FA8] to-[#775FA8]" key={project.id}>
-              <h3 className="text-xl text-white mt-10">{project.name}</h3>
+            <div className="flex flex-col flex-wrap justify-content-center items-center m-5 w-[500px] h-[800px] bg-white text-center text-black shadow-[0px_0px_5px_5px_rgba(0,0,0,0.1)] overflow-hidden bg-gradient-to-t from-black via-[#775FA8] to-[#775FA8]" key={project.id}>
+              <h3 className="text-white mt-10">{project.name}</h3>
                 <a href={formatUrl(project.demo_url)} target="_blank" rel="noopener noreferrer">
                   <Image src={project.image_url} className="drop-shadow-[0px_0px_5px_rgba(0,0,0,0.5)] mt-5 hover:drop-shadow-[0px_0px_10px_rgba(0,0,0,0.8)] hover:scale-105 transition-transform duration-300 ease-in-out"
                        alt="projectimg" width={400} height={200} />
                 </a>
-              <p className="flex flex-col flex-wrap overflow-wrap-normal white-space-normal word-wrap-break mt-5 w-3/4 text-white text-xl">{project.description}</p>
+              <p className="flex flex-col flex-wrap overflow-wrap-normal white-space-normal word-wrap-break mt-5 w-3/4 text-white">{project.description}</p>
               <div>
                 <a href={formatUrl(project.demo_url)} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon className="text-white hover:text-[#45B4D6] p-4 w-10 h-10 mt-4" icon={faFile} />
