@@ -33,7 +33,7 @@ const Footer = ({ children }: { children: ReactNode }) => {
           <footer className="bottom-0 w-full h-[160px] bg-black text-white text-center z-10">
                <div>
                   <p className="flex justify-center items-center p-1 font-semibold uppercase">
-                      © 2024 Amy Mummert. All Rights Reserved.</p>
+                      © 2025 Amy Mummert. All Rights Reserved.</p>
                   <p className="flex justify-center items-center p-1 font-semibold uppercase">BUILT
                       WITH - REACT NEXTJS TYPESCRIPT TAILWINDCSS</p>
                 </div>
