@@ -18,7 +18,7 @@ interface Project {
 }
 
 const formatUrl = (url: string) => {
-  if (!url.startsWith('http://') && !url.startsWith('https://')) {
+  if (!url.startsWith('https://') && !url.startsWith('https://')) {
     return `https://${url}`;
   }
   return url;
@@ -80,7 +80,7 @@ const ProjectComponent: React.FC = () => {
 
   return (
     <div className="h-auto w-auto bg-gradient-to-b from-black via-[#121212] to-[#121212]" id="projects">
-      <div className="flex flex-row flex-wrap m-5 border-none ref={projectContainerRef}">
+      <div className="flex flex-row flex-wrap m-5 border-none" ref={projectContainerRef}>
           {mummertProjects.map((project) => (
             <div className="flex flex-col flex-wrap justify-content-center items-center m-5 w-[500px] h-[800px] bg-white text-center text-black shadow-[0px_0px_5px_5px_rgba(0,0,0,0.1)] overflow-hidden bg-gradient-to-t from-black via-[#775FA8] to-[#775FA8]" key={project.id}>
               <h3 className="text-white mt-10">{project.name}</h3>
@@ -103,5 +103,6 @@ const ProjectComponent: React.FC = () => {
     </div>
   );
 };
+
 
 export default ProjectComponent;
